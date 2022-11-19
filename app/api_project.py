@@ -16,7 +16,7 @@ lengteList = len(meetinglist)
 #mycursor = mydb.cursor()
 
 
-@app.get("/meeting/")
+@app.get("/meeting")
 def root():
     #mycursor.execute("SELECT * FROM waterput WHERE meeting_id = '10'")
     #myresult = mycursor.fetchall()
@@ -27,7 +27,7 @@ def root():
         return {"meeting": x[0], "diepte": x[1]}
 
 
-@app.get("/meeting/day/")
+@app.get("/meeting/day")
 def root():
     #mycursor.execute("Select * FROM waterput ORDER BY meeting_id DESC LIMIT 4")
     #myresult = mycursor.fetchall()
@@ -38,7 +38,7 @@ def root():
     return list
 
 
-@app.get("/meeting/week/")
+@app.get("/meeting/week")
 def root():
   #mycursor.execute("Select * FROM waterput ORDER BY meeting_id DESC LIMIT 28")
   #myresult = mycursor.fetchall()
