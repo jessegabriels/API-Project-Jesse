@@ -16,7 +16,7 @@ mycursor = mydb.cursor()
 
 @app.get("/meeting/")
 def root():
-    mycursor.execute("SELECT $ FROM waterput WHERE meeting_id = '10'")
+    mycursor.execute("SELECT * FROM waterput WHERE meeting_id = '10'")
     myresult = mycursor.fetchall()
 
     for x in myresult:
