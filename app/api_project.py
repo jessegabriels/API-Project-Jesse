@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 #import mysql.connector
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 meetinglist = [[1,14.92], [2, 25.45], [3, 18.26], [4, 18.72], [5, 19.11], [6, 19.02], [7, 38.85], [8, 39.78]]
@@ -14,6 +15,21 @@ lengteList = len(meetinglist)
 #)
 
 #mycursor = mydb.cursor()
+
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "https://localhost.tiangolo.com",
+    "http://127.0.0.1:5500"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/meeting")
