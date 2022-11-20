@@ -9,7 +9,7 @@ lengteList = len(meetinglist)
 #mydb = mysql.connector.connect(
   #host="localhost",
   #user="root",
-  #password="gabriels.klas4B",
+  #password="password",
   #database="api_iot",
   #auth_plugin='mysql_native_password'
 #)
@@ -34,13 +34,15 @@ app.add_middleware(
 
 @app.get("/meeting")
 def root():
-    #mycursor.execute("SELECT * FROM waterput WHERE meeting_id = '10'")
+    #mycursor.execute("SELECT * FROM waterput WHERE")
     #myresult = mycursor.fetchall()
 
     #for x in myresult:
+    list = {}
 
     for x in meetinglist:
-        return {"meeting": x[0], "diepte": x[1]}
+      list[x[0]] = x[1]
+    return list
 
 
 @app.get("/meeting/day")
