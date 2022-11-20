@@ -1,8 +1,7 @@
 # API-Project-Jesse
 
 # Concept
-Het concept van mijn project is om meetingen van een ESP32 bij te houden. Met behulp van een php script kan ik data doorsturen naar MySQL.
-Eens de data in mijn databse staat, kan ik met python een API maken. Deze API host ik via Okteto. Eens dit allemaal werkt, kan ik met HTML en AlpineJS een front-end maken. Hierin zouden de teruggegeven waardes van de API in een grafieken te komen staan. Hierdoor wordt het waterniveau mooi weergegeven.
+Ik ben begonnen om van een Raspberry Pi een homeserver te maken met een WiFi hotspot zodat ik in de tuin WiFI zou hebben. Hierna ben ik aan de slag gegaan met een ESP32 met een ultrasonische sensor. De metingen van deze sensor worden doorgestuurd naar MySQL via een PHP script. Hierna zou ik in Python mijn database kunnen oproepen en er data uit kunnen halen. Met de front-end was het idee om metingen weer te geven in een vorm van een grafiek. Zo is het een duidelijke en aangename manier om te kijken hoe hoog het waterniveau is.
 
 # Okteto
 De laatste les heb ik samen met mijn leerkracht gezocht naar de oorzaak van een error. Zowel de leerkracht als ikzelf vonden het niet. Hierdoor was ik genoodzaakt om mijn database op een andere manier te betreden. Bij het uploaden van mijn repo op Okteto Cloud krijg ik een foutmelding. 
