@@ -19,3 +19,11 @@ Op de bovenstaande screenshot is te zien dat ik een GET request stuur naar API. 
 Omdat het niet nodig is om zelf een meetingen de posten, heb ik er voor gekozen om dit niet te integreren in mijn systeem.
 
 
+# Andere Repositories + Okteto
+Front-end: https://github.com/jessegabriels/API-Project-Jesse-Front.git
+ESP32: https://github.com/jessegabriels/API-Project-Jesse-ESP.git
+Okteto: https://project-service-jessegabriels.cloud.okteto.net
+Hosted Front-end: https://jessegabriels.github.io/API-Project-Jesse-Front/
+
+
+
