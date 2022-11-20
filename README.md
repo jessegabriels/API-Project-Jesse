@@ -2,7 +2,7 @@
 
 # Concept
 Het concept van mijn project is om meetingen van een ESP32 bij te houden. Met behulp van een php script kan ik data doorsturen naar MySQL.
-Eens de data in mijn databse staat, kan ik met python een API maken. Deze API host ik via Okteto. Eens dit allemaal werkt, kan ik met HTML en AlpineJS een front-end maken.
+Eens de data in mijn databse staat, kan ik met python een API maken. Deze API host ik via Okteto. Eens dit allemaal werkt, kan ik met HTML en AlpineJS een front-end maken. Hierin zouden de teruggegeven waardes van de API in een grafieken te komen staan. Hierdoor wordt het waterniveau mooi weergegeven.
 
 # Okteto
 De laatste les heb ik samen met mijn leerkracht gezocht naar de oorzaak van een error. Zowel de leerkracht als ikzelf vonden het niet. Hierdoor was ik genoodzaakt om mijn database op een andere manier te betreden. Bij het uploaden van mijn repo op Okteto Cloud krijg ik een foutmelding. 
