@@ -22,6 +22,11 @@ Op de bovenstaande screenshot is te zien dat ik een GET request stuur naar API. 
 
 Omdat het niet nodig is om zelf een meetingen de posten, heb ik er voor gekozen om dit niet te integreren in mijn systeem.
 
+# Data ophalen via front-end
+
+![image](https://user-images.githubusercontent.com/81410142/202914390-2555572a-35aa-400f-b92e-96fae74aa2f4.png)
+
+
 
 # Andere Repositories + Okteto
 Front-end: https://github.com/jessegabriels/API-Project-Jesse-Front.git
