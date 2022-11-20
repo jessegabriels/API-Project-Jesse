@@ -6,6 +6,7 @@ Eens de data in mijn databse staat, kan ik met python een API maken. Deze API ho
 
 # Okteto
 De laatste les heb ik samen met mijn leerkracht gezocht naar de oorzaak van een error. Zowel de leerkracht als ikzelf vonden het niet. Hierdoor was ik genoodzaakt om mijn database op een andere manier te betreden. Bij het uploaden van mijn repo op Okteto Cloud krijg ik een foutmelding. 
+
 ![image](https://user-images.githubusercontent.com/81410142/202868255-19a29c9d-0929-4be3-ac50-0ae31fc88979.png)
 
 Hierdoor heb ik besloten om een lijst te hard coderen.
@@ -14,6 +15,7 @@ Hierdoor heb ik besloten om een lijst te hard coderen.
 # Postman
 
 ![image](https://user-images.githubusercontent.com/81410142/202900354-1033dc4f-d1ce-4dca-b6e2-762d3f172069.png)
+
 Op de bovenstaande screenshot is te zien dat ik een GET request stuur naar API. De laatste 4 waardes worden weergeven. Dit komt omdat de ESP 4 meetingen per dag doet (om de 6 uur). 
 
 Omdat het niet nodig is om zelf een meetingen de posten, heb ik er voor gekozen om dit niet te integreren in mijn systeem.
@@ -21,8 +23,11 @@ Omdat het niet nodig is om zelf een meetingen de posten, heb ik er voor gekozen 
 
 # Andere Repositories + Okteto
 Front-end: https://github.com/jessegabriels/API-Project-Jesse-Front.git
+
 ESP32: https://github.com/jessegabriels/API-Project-Jesse-ESP.git
+
 Okteto: https://project-service-jessegabriels.cloud.okteto.net
+
 Hosted Front-end: https://jessegabriels.github.io/API-Project-Jesse-Front/
 
 
