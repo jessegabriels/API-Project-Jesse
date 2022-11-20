@@ -18,6 +18,9 @@ Hierdoor heb ik besloten om een lijst te hard coderen.
 
 Op de bovenstaande screenshot is te zien dat ik een GET request stuur naar API. De laatste 4 waardes worden weergeven. Dit komt omdat de ESP 4 meetingen per dag doet (om de 6 uur). 
 
+![image](https://user-images.githubusercontent.com/81410142/202901292-c930e068-72b0-4341-ba14-305d58d73415.png)
+
+
 Omdat het niet nodig is om zelf een meetingen de posten, heb ik er voor gekozen om dit niet te integreren in mijn systeem.
 
 
